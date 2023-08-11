@@ -37,8 +37,11 @@ class PokeDetail extends StatelessWidget {
               style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             ),
             const Chip(
-              label: Text('electric'),
               backgroundColor: Colors.yellow,
+              label: Text(
+                'electric',
+                style: TextStyle(color: Colors.black),
+              ),
             ),
           ],
         ),
